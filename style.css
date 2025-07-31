@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #8deafa;
+  padding: 4% 0 0 10%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
