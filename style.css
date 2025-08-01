@@ -25,3 +25,21 @@ button {
   border-radius: 16px;
   font-size: 1rem;
 }
+
+
+.content {
+  position: relative;
+  max-width: 500px;
+  margin: 1.5rem 0 0 4rem;
+}
+.note {
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  padding: 20px;
+  margin: 2rem 0 ;
+  background-color: white;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
