@@ -43,3 +43,11 @@ button {
   border: none;
   outline: none;
 }
+img {
+  position: absolute;
+  bottom: 0.75rem;
+  right: 0.75rem;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
