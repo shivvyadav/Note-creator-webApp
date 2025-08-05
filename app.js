@@ -20,3 +20,11 @@ btn.addEventListener("click", () => {
   createNote();
   addImage();
 });
+// Create a new note with a paragraph and an image for deletion
+function createNote() {
+  let contentDiv = document.querySelector(".content:last-child");
+  let note = document.createElement("p");
+  note.classList.add("note");
+  note.setAttribute("contenteditable", "true");
+  contentDiv.append(note);
+}
