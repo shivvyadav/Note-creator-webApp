@@ -10,3 +10,13 @@ let contents = document.querySelectorAll(".content");
 function updateStorage() {
   localStorage.setItem("notes", allContent.innerHTML);
 }
+
+// This event listener will create a new note when the button is clicked
+btn.addEventListener("click", () => {
+  // Create a new div for the note
+  let contentDiv = document.createElement("div");
+  contentDiv.classList.add("content");
+  allContent.append(contentDiv);
+  createNote();
+  addImage();
+});
