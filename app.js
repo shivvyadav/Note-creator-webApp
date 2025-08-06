@@ -38,3 +38,19 @@ function addImage() {
   image.classList.add("delete");
   contentDiv.append(image);
 }
+// delete notes
+allContent.addEventListener("click", (e) => {
+  if (e.target.id === "delete") {
+    e.target.parentElement.remove();
+    updateStorage();
+  } else if (e.target.tagName === "P") {
+    // e.target.classList.toggle("active");
+
+    contents = document.querySelectorAll(".content");
+    contents.forEach((content) => {
+      content.onkeyup = () => {
+        updateStorage();
+      };
+    });
+  }
+});
