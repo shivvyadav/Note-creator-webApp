@@ -28,3 +28,13 @@ function createNote() {
   note.setAttribute("contenteditable", "true");
   contentDiv.append(note);
 }
+// Add image
+function addImage() {
+  let contentDiv = document.querySelector(".content:last-child");
+  let image = document.createElement("img");
+  image.setAttribute("src", "image/delete.png");
+  image.setAttribute("id", "delete");
+  image.setAttribute("alt", "delete");
+  image.classList.add("delete");
+  contentDiv.append(image);
+}
