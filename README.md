@@ -8,3 +8,10 @@ This app allows you to create, edit, and delete notes, with automatic saving usi
  Delete Notes – Remove unwanted notes with a delete button.<br>
  Auto Save – Notes are automatically saved in the browser’s LocalStorage.<br>
  Persistent Storage – Notes remain even after refreshing or reopening the app.<br>
+
+ ## How It Works
+1.Add Note – Clicking the button adds a new editable note with a delete icon.<br>
+2.Edit Note – Click inside the note and type; changes are automatically saved.<br>
+3.Delete Note – Click the delete icon to remove a note.<br>
+4.Storage – The app uses localStorage to keep your notes safe across sessions.<br>
+
