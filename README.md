@@ -15,3 +15,7 @@ This app allows you to create, edit, and delete notes, with automatic saving usi
 3.Delete Note – Click the delete icon to remove a note.<br>
 4.Storage – The app uses localStorage to keep your notes safe across sessions.<br>
 
+##  Technologies Used
+HTML5 – Structure of the app.<br>
+CSS3 – Styling and layout.<br>
+JavaScript (ES6) – Functionality and local storage handling.<br>
